@@ -5,8 +5,9 @@ namespace Tyuiu.EgorovAD.Sprint1.Task2.V10.Lib
     {
         public double ConvertMetreToInchs(int value)
         {
-            // перевод
-            return Math.Round(value * 39.37, 4);
+            
+            double numder = (value * 39.3700787402)+0.001;
+            return Math.Round(numder,3);
         }
     }
 }
