@@ -5,6 +5,7 @@ namespace Tyuiu.EgorovAD.Sprint1.Task2.V10.Lib
     {
         public double ConvertMetreToInchs(int value)
         {
+            // перевод
             return value * 39.37;
         }
     }
